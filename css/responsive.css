@@ -125,7 +125,7 @@
         padding: 5px 15px;
     }
     #ca-navbar {
-        padding: 20px;
+        padding: 30px;
         border-radius: 3px;
         background-color: #5b32b4;
         text-align: left;
@@ -247,6 +247,18 @@
         max-width: 370px;
     }
 }
+
+@media (max-width:600px) {
+  img#robot {
+    display: none;
+  }
+} 
+
+@media (max-width:600px) {
+  img#laptops {
+    display: none;
+  }
+} 
 
 @media (min-width: 576px) and (max-width: 767px) {
     .wellcome-heading > h3 {
